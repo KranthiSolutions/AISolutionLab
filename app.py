@@ -9,7 +9,7 @@ client = InferenceClient(
 
 # Page configuration
 st.set_page_config(
-    page_title="My AI Assistant",
+    page_title="Kranthi POC - My AI Assistant",
     page_icon="🤖"
 )
 
