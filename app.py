@@ -9,12 +9,12 @@ client = InferenceClient(
 
 # Page configuration
 st.set_page_config(
-    page_title="GenAI Assistant",
+    page_title="My AI Assistant",
     page_icon="🤖"
 )
 
 # Title
-st.title("🤖 GenAI Assistant")
+st.title("🤖 My Test AI Assistant")
 st.write("Ask a question and get an AI-generated answer.")
 
 # User question
