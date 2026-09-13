@@ -9,18 +9,18 @@ client = InferenceClient(
 
 # Page configuration
 st.set_page_config(
-    page_title="My AI Assistant (Created By Kranthi)",
+    page_title="My AI Assistant",
     page_icon="🤖"
 )
 
 # Title
-st.title("🤖 My Test AI Assistant")
+st.title("🤖 My AI Assistant  (Created By Kranthi)")
 st.write("Ask a question and get an AI-generated answer.")
 
 # User question
 question = st.text_area(
     "Enter your question:",
-    placeholder="Example: What is Generative AI?"
+    placeholder="Example: Best places to visist in usa for christmas?"
 )
 
 # Ask AI
