@@ -14,17 +14,17 @@ st.set_page_config(
 )
 
 # Title
-st.title("🤖 My AI Assistant  (Created By Kranthi)")
+st.title("🤖 kranthi POC - My AI Assistant ")
 st.write("Ask a question and get an AI-generated answer.")
 
 # User question
 question = st.text_area(
     "Enter your question:",
-    placeholder="Example: Best places to visist in usa for christmas?"
+    placeholder="Example: best christmas gifts?"
 )
 
 # Ask AI
-if st.button("Ask AI"):
+if st.button("Submit"):
 
     if not question.strip():
         st.warning("Please enter a question.")
