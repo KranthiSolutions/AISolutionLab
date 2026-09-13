@@ -1,0 +1,1 @@
+print("Hello Gen AI!")
